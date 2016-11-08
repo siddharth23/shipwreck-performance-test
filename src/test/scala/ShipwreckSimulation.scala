@@ -3,7 +3,7 @@ import io.gatling.http.Predef._
 class ShipwreckSimulation extends Simulation {
 
   val httpProtocol = http
-    .baseURL("http://shipwreck-dev.jqzi5wdvms.us-east-1.elasticbeanstalk.com")
+    .baseURL("http://shipwreck-qa.jqzi5wdvms.us-east-1.elasticbeanstalk.com")
     .inferHtmlResources()
     .acceptHeader("*/*")
     .acceptEncodingHeader("gzip, deflate")
